@@ -1,0 +1,9 @@
+[submodule "SocialTech-Gazebo"]
+	path = SocialTech-Gazebo
+	url = https://github.com/SocialTech-Challenge/SocialTech-Gazebo.git
+[submodule "ugv_sdk"]
+	path = ugv_sdk
+	url = https://github.com/SocialTech-Challenge/ugv_sdk
+[submodule "tracer_ros"]
+	path = tracer_ros
+	url = https://github.com/SocialTech-Challenge/tracer_ros
