@@ -73,7 +73,7 @@ Si no es la primera vez que utilizas el paquete tracer-ros (Ejecuta este comando
     
     rosrun tracer_bringup bringup_can2usb.bash
 
-## Probar el robot Real
+## Lanzar los nodos de control del robot Real
 
 Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
 
@@ -84,4 +84,16 @@ Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
 2. Iniciar el nodo de teleoperación por teclado.
 
         roslaunch tracer_bringup tracer_teleop_keyboard.launch
+
+## Lanzar los nodos de control del robot en entorno simulado
+
+Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
+
+1. Iniciar el nodo base para el robot simulado.
+    
+        roslaunch tracer_bringup tracer_robot_base.launch
+
+2. Iniciar el nodo de teleoperación por teclado.
+
+        roslaunch SocialTech-Gazebo gazebo.launch
 
