@@ -85,15 +85,15 @@ Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
 
         roslaunch tracer_bringup tracer_teleop_keyboard.launch
 
-## Lanzar los nodos de control del robot en entorno simulado
+## Lanzar los nodos de control del robot en entorno Simulado
 
 Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
 
 1. Iniciar el nodo base para el robot simulado.
     
-        roslaunch tracer_bringup tracer_robot_base.launch
+        roslaunch SocialTech-Gazebo gazebo.launch
 
 2. Iniciar el nodo de teleoperación por teclado.
 
-        roslaunch SocialTech-Gazebo gazebo.launch
+        rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
