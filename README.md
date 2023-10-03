@@ -59,7 +59,7 @@ Compilación del area de trabajo.
 
 Estos pasos solo hay que realizarlos si de desea utilizar el host que se esta configurando para controlar directamente la plataforma móvil Tracer.
 
-## Setup CAN-To-USB adapter
+## Configuración del adaptador CAN-To-USB
 
 Habilita el módulo del kernel "gs_usb" (Si ya has añadido este módulo, no necesitas añadirlo de nuevo).
 
