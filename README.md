@@ -91,7 +91,7 @@ Ejecutar los siguiente nodos de ROS, cada uno en un terminal diferente:
 
 1. Iniciar el nodo base para el robot simulado.
     
-        roslaunch SocialTech-Gazebo gazebo.launch
+        roslaunch SocialTech-Gazebo prueba1.launch 
 
 2. Iniciar el nodo de teleoperación por teclado.
 
