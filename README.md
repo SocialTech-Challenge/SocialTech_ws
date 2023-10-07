@@ -48,7 +48,7 @@ Con lo siguiente, puedes inicializar rosdep.
 
 Este repositorio configura un area de trabajo que contiene todos los paquetes imprescindible para poder manipular y simular la plataforma móvil empleada en SocialTech-Challenge.
 
-    git clone –recurse-submodules https://github.com/SocialTech-Challenge/SocialTech_ws
+    git clone --recurse-submodules https://github.com/SocialTech-Challenge/SocialTech_ws
 
 Compilación del area de trabajo.
 
